@@ -9,7 +9,7 @@ void Main(array<String^>^ args)
 {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
-
+	// Some comment here
 	GUI1::MyForm form;
 	Application::Run(%form);
 }
